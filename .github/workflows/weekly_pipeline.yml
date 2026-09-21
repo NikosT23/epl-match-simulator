@@ -4,7 +4,10 @@ on:
   schedule:
     # Runs at 02:00 AM UTC every Monday
     - cron: '0 2 * * 1'
-  workflow_dispatch: # Adds a "Run workflow" button in GitHub Actions tab for manual triggers
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write # Grants write access to commit and push updated CSVs
 
 jobs:
   sync-and-simulate:
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,5 +39,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/processed/
-          git commit -m "auto: update 2026-27 standings and gameweek forecasts [skip ci]" || exit 0
+          git diff --staged --quiet || git commit -m "auto: update 2026-27 standings and gameweek forecasts [skip ci]"
           git push
