@@ -2,12 +2,12 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 6,2026-10-10 11:30:00+00:00,Arsenal FC,Leeds United FC,0.307740817088884,0.32050712666545655,0.3717520562456595,https://crests.football-data.org/57.png,https://crests.football-data.org/341.png
 6,2026-10-10 14:00:00+00:00,Sunderland AFC,Brighton & Hove Albion FC,0.6846667179539053,0.13070540227377297,0.1846278797723217,https://crests.football-data.org/71.png,https://crests.football-data.org/397.png
 6,2026-10-10 14:00:00+00:00,Chelsea FC,AFC Bournemouth,0.2937004464324243,0.21073485858601465,0.4955646949815611,https://crests.football-data.org/61.png,https://crests.football-data.org/bournemouth.png
-6,2026-10-10 14:00:00+00:00,Ipswich Town FC,Fulham FC,0.3105554264250867,0.2359067519076404,0.4535378216672729,https://crests.football-data.org/349.png,https://crests.football-data.org/63.png
+6,2026-10-10 14:00:00+00:00,Ipswich Town FC,Fulham FC,0.3105554264250867,0.2359067519076404,0.45353782166727297,https://crests.football-data.org/349.png,https://crests.football-data.org/63.png
 6,2026-10-10 14:00:00+00:00,Aston Villa FC,Brentford FC,0.6243754680821927,0.17699459305117357,0.19862993886663377,https://crests.football-data.org/58.png,https://crests.football-data.org/402.png
 6,2026-10-10 16:30:00+00:00,Manchester United FC,Tottenham Hotspur FC,0.1595438579368709,0.20826572691792514,0.632190415145204,https://crests.football-data.org/66.png,https://crests.football-data.org/73.png
 6,2026-10-11 13:00:00+00:00,Hull City AFC,Everton FC,0.30906359439941716,0.352369439410132,0.3385669661904509,https://crests.football-data.org/322.png,https://crests.football-data.org/62.png
 6,2026-10-11 13:00:00+00:00,Crystal Palace FC,Nottingham Forest FC,0.37151096193631544,0.275521251317327,0.35296778674635754,https://crests.football-data.org/354.png,https://crests.football-data.org/351.png
-6,2026-10-11 15:30:00+00:00,Liverpool FC,Manchester City FC,0.38658242973552603,0.2581572482682934,0.3552603219961805,https://crests.football-data.org/64.png,https://crests.football-data.org/65.png
+6,2026-10-11 15:30:00+00:00,Liverpool FC,Manchester City FC,0.38658242973552615,0.2581572482682934,0.3552603219961805,https://crests.football-data.org/64.png,https://crests.football-data.org/65.png
 6,2026-10-12 19:00:00+00:00,Coventry City FC,Newcastle United FC,0.5854182409104487,0.19035647160563562,0.22422528748391565,https://crests.football-data.org/1076.png,https://crests.football-data.org/67.png
 7,2026-10-17 11:30:00+00:00,Everton FC,Chelsea FC,0.17350319441117196,0.20126674556840718,0.6252300600204209,https://crests.football-data.org/62.png,https://crests.football-data.org/61.png
 7,2026-10-17 14:00:00+00:00,Fulham FC,Hull City AFC,0.4473731447868936,0.2728560840186931,0.2797707711944132,https://crests.football-data.org/63.png,https://crests.football-data.org/322.png
@@ -20,7 +20,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 7,2026-10-18 15:30:00+00:00,Nottingham Forest FC,Arsenal FC,0.4274017813410489,0.2988819558670617,0.2737162627918893,https://crests.football-data.org/351.png,https://crests.football-data.org/57.png
 7,2026-10-19 19:00:00+00:00,Tottenham Hotspur FC,Coventry City FC,0.25262809374927403,0.32422590996446377,0.42314599628626226,https://crests.football-data.org/73.png,https://crests.football-data.org/1076.png
 8,2026-10-23 19:00:00+00:00,Ipswich Town FC,Nottingham Forest FC,0.3472707127178002,0.26956223331432433,0.38316705396787554,https://crests.football-data.org/349.png,https://crests.football-data.org/351.png
-8,2026-10-24 11:30:00+00:00,Aston Villa FC,Manchester City FC,0.6609011114855132,0.14964969076221374,0.189449197752273,https://crests.football-data.org/58.png,https://crests.football-data.org/65.png
+8,2026-10-24 11:30:00+00:00,Aston Villa FC,Manchester City FC,0.6609011114855133,0.14964969076221374,0.18944919775227304,https://crests.football-data.org/58.png,https://crests.football-data.org/65.png
 8,2026-10-24 14:00:00+00:00,Arsenal FC,Everton FC,0.28104268889902234,0.33038791341115487,0.3885693976898229,https://crests.football-data.org/57.png,https://crests.football-data.org/62.png
 8,2026-10-24 14:00:00+00:00,Coventry City FC,Fulham FC,0.44818271797341397,0.267482644454347,0.2843346375722391,https://crests.football-data.org/1076.png,https://crests.football-data.org/63.png
 8,2026-10-24 16:30:00+00:00,Chelsea FC,Tottenham Hotspur FC,0.16751376165533316,0.18976078433629437,0.6427254540083726,https://crests.football-data.org/61.png,https://crests.football-data.org/73.png
@@ -32,60 +32,60 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 9,2026-10-31 12:30:00+00:00,Chelsea FC,Manchester United FC,0.37217889035774393,0.20707800130869014,0.4207431083335658,https://crests.football-data.org/61.png,https://crests.football-data.org/66.png
 9,2026-10-31 15:00:00+00:00,Brentford FC,Nottingham Forest FC,0.16118656128188308,0.24017812611788808,0.5986353126002288,https://crests.football-data.org/402.png,https://crests.football-data.org/351.png
 9,2026-10-31 15:00:00+00:00,Hull City AFC,Ipswich Town FC,0.17772704495471167,0.21109447854937924,0.6111784764959091,https://crests.football-data.org/322.png,https://crests.football-data.org/349.png
-9,2026-10-31 15:00:00+00:00,Coventry City FC,Sunderland AFC,0.46477094053506507,0.2459742697917551,0.28925478967317986,https://crests.football-data.org/1076.png,https://crests.football-data.org/71.png
-9,2026-10-31 15:00:00+00:00,AFC Bournemouth,Leeds United FC,0.4981804252898124,0.25091908747698743,0.2509004872332002,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/341.png
 9,2026-10-31 15:00:00+00:00,Manchester City FC,Brighton & Hove Albion FC,0.37248779955398575,0.218483386736149,0.4090288137098652,https://crests.football-data.org/65.png,https://crests.football-data.org/397.png
+9,2026-10-31 15:00:00+00:00,AFC Bournemouth,Leeds United FC,0.4981804252898124,0.25091908747698743,0.2509004872332002,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/341.png
+9,2026-10-31 15:00:00+00:00,Coventry City FC,Sunderland AFC,0.46477094053506507,0.2459742697917551,0.28925478967317986,https://crests.football-data.org/1076.png,https://crests.football-data.org/71.png
 9,2026-10-31 17:30:00+00:00,Tottenham Hotspur FC,Crystal Palace FC,0.39362959177916906,0.26847600351676765,0.3378944047040632,https://crests.football-data.org/73.png,https://crests.football-data.org/354.png
 9,2026-10-31 20:00:00+00:00,Aston Villa FC,Fulham FC,0.3667402206325306,0.2716171305766418,0.36164264879082764,https://crests.football-data.org/58.png,https://crests.football-data.org/63.png
 9,2026-11-01 16:30:00+00:00,Liverpool FC,Arsenal FC,0.3139815794580439,0.30129140492805206,0.38472701561390416,https://crests.football-data.org/64.png,https://crests.football-data.org/57.png
 9,2026-11-02 20:00:00+00:00,Newcastle United FC,Everton FC,0.4373701226403102,0.25794548337346385,0.304684393986226,https://crests.football-data.org/67.png,https://crests.football-data.org/62.png
-10,2026-11-07 15:00:00+00:00,Manchester United FC,Aston Villa FC,0.17982391464813366,0.20331627057594068,0.6168598147759257,https://crests.football-data.org/66.png,https://crests.football-data.org/58.png
-10,2026-11-07 15:00:00+00:00,Brighton & Hove Albion FC,Brentford FC,0.2636427976860045,0.2264183574741044,0.509938844839891,https://crests.football-data.org/397.png,https://crests.football-data.org/402.png
-10,2026-11-07 15:00:00+00:00,Ipswich Town FC,AFC Bournemouth,0.3549018927597736,0.23066067450410535,0.4144374327361211,https://crests.football-data.org/349.png,https://crests.football-data.org/bournemouth.png
-10,2026-11-07 15:00:00+00:00,Sunderland AFC,Chelsea FC,0.4130613691508259,0.2067561728746182,0.3801824579745559,https://crests.football-data.org/71.png,https://crests.football-data.org/61.png
-10,2026-11-07 15:00:00+00:00,Crystal Palace FC,Liverpool FC,0.546973317246151,0.21145928634492145,0.2415673964089275,https://crests.football-data.org/354.png,https://crests.football-data.org/64.png
-10,2026-11-07 15:00:00+00:00,Everton FC,Coventry City FC,0.12098472461025359,0.19718198609756324,0.6818332892921832,https://crests.football-data.org/62.png,https://crests.football-data.org/1076.png
-10,2026-11-07 15:00:00+00:00,Fulham FC,Newcastle United FC,0.42541299645260783,0.22971425893395594,0.34487274461343626,https://crests.football-data.org/63.png,https://crests.football-data.org/67.png
-10,2026-11-07 15:00:00+00:00,Leeds United FC,Tottenham Hotspur FC,0.12382235892680218,0.20917779179420964,0.6669998492789883,https://crests.football-data.org/341.png,https://crests.football-data.org/73.png
-10,2026-11-07 15:00:00+00:00,Nottingham Forest FC,Manchester City FC,0.5246856536348108,0.23094178147450678,0.24437256489068243,https://crests.football-data.org/351.png,https://crests.football-data.org/65.png
+10,2026-11-06 20:00:00+00:00,Everton FC,Coventry City FC,0.12098472461025359,0.19718198609756324,0.6818332892921832,https://crests.football-data.org/62.png,https://crests.football-data.org/1076.png
+10,2026-11-07 12:30:00+00:00,Leeds United FC,Tottenham Hotspur FC,0.12382235892680217,0.20917779179420964,0.6669998492789883,https://crests.football-data.org/341.png,https://crests.football-data.org/73.png
 10,2026-11-07 15:00:00+00:00,Arsenal FC,Hull City AFC,0.2491918916272509,0.30228107988415065,0.4485270284885985,https://crests.football-data.org/57.png,https://crests.football-data.org/322.png
-11,2026-11-21 15:00:00+00:00,Newcastle United FC,Arsenal FC,0.46788197787274316,0.22859533015164965,0.3035226919756073,https://crests.football-data.org/67.png,https://crests.football-data.org/57.png
-11,2026-11-21 15:00:00+00:00,Coventry City FC,Crystal Palace FC,0.4503356619489642,0.24647380749623585,0.3031905305548,https://crests.football-data.org/1076.png,https://crests.football-data.org/354.png
-11,2026-11-21 15:00:00+00:00,Brentford FC,Everton FC,0.2566133040397603,0.30914821589136904,0.4342384800688707,https://crests.football-data.org/402.png,https://crests.football-data.org/62.png
-11,2026-11-21 15:00:00+00:00,Tottenham Hotspur FC,Ipswich Town FC,0.432282048040049,0.25374353776346653,0.3139744141964845,https://crests.football-data.org/73.png,https://crests.football-data.org/349.png
-11,2026-11-21 15:00:00+00:00,AFC Bournemouth,Nottingham Forest FC,0.30488053193821757,0.29655558729526355,0.398563880766519,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/351.png
-11,2026-11-21 15:00:00+00:00,Liverpool FC,Manchester United FC,0.21498006965533586,0.2356347485827206,0.5493851817619435,https://crests.football-data.org/64.png,https://crests.football-data.org/66.png
-11,2026-11-21 15:00:00+00:00,Aston Villa FC,Sunderland AFC,0.37222384541415,0.25195069485292,0.3758254597329301,https://crests.football-data.org/58.png,https://crests.football-data.org/71.png
-11,2026-11-21 15:00:00+00:00,Manchester City FC,Fulham FC,0.12610139515364266,0.14730846626592278,0.7265901385804346,https://crests.football-data.org/65.png,https://crests.football-data.org/63.png
+10,2026-11-07 15:00:00+00:00,Fulham FC,Newcastle United FC,0.42541299645260783,0.22971425893395594,0.34487274461343626,https://crests.football-data.org/63.png,https://crests.football-data.org/67.png
+10,2026-11-07 17:30:00+00:00,Nottingham Forest FC,Manchester City FC,0.5246856536348108,0.23094178147450678,0.24437256489068243,https://crests.football-data.org/351.png,https://crests.football-data.org/65.png
+10,2026-11-08 14:00:00+00:00,Crystal Palace FC,Liverpool FC,0.546973317246151,0.21145928634492145,0.2415673964089275,https://crests.football-data.org/354.png,https://crests.football-data.org/64.png
+10,2026-11-08 14:00:00+00:00,Sunderland AFC,Chelsea FC,0.4130613691508259,0.2067561728746182,0.3801824579745559,https://crests.football-data.org/71.png,https://crests.football-data.org/61.png
+10,2026-11-08 14:00:00+00:00,Ipswich Town FC,AFC Bournemouth,0.3549018927597736,0.23066067450410535,0.4144374327361211,https://crests.football-data.org/349.png,https://crests.football-data.org/bournemouth.png
+10,2026-11-08 14:00:00+00:00,Brighton & Hove Albion FC,Brentford FC,0.2636427976860045,0.2264183574741044,0.509938844839891,https://crests.football-data.org/397.png,https://crests.football-data.org/402.png
+10,2026-11-08 16:30:00+00:00,Manchester United FC,Aston Villa FC,0.17982391464813366,0.20331627057594068,0.6168598147759257,https://crests.football-data.org/66.png,https://crests.football-data.org/58.png
+11,2026-11-21 12:30:00+00:00,Manchester City FC,Fulham FC,0.1261013951536427,0.1473084662659228,0.7265901385804345,https://crests.football-data.org/65.png,https://crests.football-data.org/63.png
 11,2026-11-21 15:00:00+00:00,Chelsea FC,Leeds United FC,0.5401091752699192,0.206451902914245,0.2534389218158358,https://crests.football-data.org/61.png,https://crests.football-data.org/341.png
-11,2026-11-21 15:00:00+00:00,Hull City AFC,Brighton & Hove Albion FC,0.46597818988810186,0.23941135652471976,0.2946104535871784,https://crests.football-data.org/322.png,https://crests.football-data.org/397.png
-12,2026-11-28 15:00:00+00:00,Nottingham Forest FC,Chelsea FC,0.3198049538412993,0.24757488406907194,0.4326201620896288,https://crests.football-data.org/351.png,https://crests.football-data.org/61.png
-12,2026-11-28 15:00:00+00:00,Crystal Palace FC,Hull City AFC,0.5063700232379716,0.2324118092059895,0.2612181675560388,https://crests.football-data.org/354.png,https://crests.football-data.org/322.png
-12,2026-11-28 15:00:00+00:00,Sunderland AFC,Tottenham Hotspur FC,0.21456371091769658,0.2530522919660853,0.5323839971162181,https://crests.football-data.org/71.png,https://crests.football-data.org/73.png
-12,2026-11-28 15:00:00+00:00,Brighton & Hove Albion FC,Newcastle United FC,0.12932258893424603,0.13542453070039082,0.7352528803653632,https://crests.football-data.org/397.png,https://crests.football-data.org/67.png
-12,2026-11-28 15:00:00+00:00,Fulham FC,AFC Bournemouth,0.34421810811384396,0.258676132864613,0.397105759021543,https://crests.football-data.org/63.png,https://crests.football-data.org/bournemouth.png
+11,2026-11-21 15:00:00+00:00,Aston Villa FC,Sunderland AFC,0.37222384541415,0.25195069485292,0.3758254597329301,https://crests.football-data.org/58.png,https://crests.football-data.org/71.png
+11,2026-11-21 15:00:00+00:00,AFC Bournemouth,Nottingham Forest FC,0.30488053193821757,0.29655558729526355,0.398563880766519,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/351.png
+11,2026-11-21 15:00:00+00:00,Tottenham Hotspur FC,Ipswich Town FC,0.432282048040049,0.25374353776346653,0.3139744141964845,https://crests.football-data.org/73.png,https://crests.football-data.org/349.png
+11,2026-11-21 15:00:00+00:00,Coventry City FC,Crystal Palace FC,0.4503356619489642,0.24647380749623585,0.3031905305548,https://crests.football-data.org/1076.png,https://crests.football-data.org/354.png
+11,2026-11-21 17:30:00+00:00,Newcastle United FC,Arsenal FC,0.46788197787274316,0.22859533015164965,0.3035226919756073,https://crests.football-data.org/67.png,https://crests.football-data.org/57.png
+11,2026-11-22 14:00:00+00:00,Hull City AFC,Brighton & Hove Albion FC,0.46597818988810186,0.23941135652471976,0.2946104535871784,https://crests.football-data.org/322.png,https://crests.football-data.org/397.png
+11,2026-11-22 16:30:00+00:00,Liverpool FC,Manchester United FC,0.21498006965533586,0.2356347485827206,0.5493851817619436,https://crests.football-data.org/64.png,https://crests.football-data.org/66.png
+11,2026-11-23 20:00:00+00:00,Brentford FC,Everton FC,0.2566133040397603,0.30914821589136904,0.4342384800688707,https://crests.football-data.org/402.png,https://crests.football-data.org/62.png
+12,2026-11-27 20:00:00+00:00,Nottingham Forest FC,Chelsea FC,0.3198049538412993,0.24757488406907194,0.4326201620896288,https://crests.football-data.org/351.png,https://crests.football-data.org/61.png
 12,2026-11-28 15:00:00+00:00,Leeds United FC,Coventry City FC,0.11521645505428336,0.17223816853356255,0.7125453764121541,https://crests.football-data.org/341.png,https://crests.football-data.org/1076.png
 12,2026-11-28 15:00:00+00:00,Manchester United FC,Brentford FC,0.5169627228616741,0.21436667881077776,0.268670598327548,https://crests.football-data.org/66.png,https://crests.football-data.org/402.png
-12,2026-11-28 15:00:00+00:00,Arsenal FC,Manchester City FC,0.36302002457976473,0.25425602455418894,0.3827239508660464,https://crests.football-data.org/57.png,https://crests.football-data.org/65.png
-12,2026-11-28 15:00:00+00:00,Ipswich Town FC,Aston Villa FC,0.2435094779984852,0.2267818705107066,0.5297086514908081,https://crests.football-data.org/349.png,https://crests.football-data.org/58.png
-12,2026-11-28 15:00:00+00:00,Everton FC,Liverpool FC,0.26028232234988524,0.3377143939684892,0.4020032836816256,https://crests.football-data.org/62.png,https://crests.football-data.org/64.png
-13,2026-12-02 20:00:00+00:00,Coventry City FC,Ipswich Town FC,0.4918270679082379,0.2288641881745541,0.27930874391720817,https://crests.football-data.org/1076.png,https://crests.football-data.org/349.png
-13,2026-12-02 20:00:00+00:00,AFC Bournemouth,Brighton & Hove Albion FC,0.6441871153775979,0.1535676166940572,0.202245267928345,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/397.png
-13,2026-12-02 20:00:00+00:00,Newcastle United FC,Manchester United FC,0.3190730533651744,0.21710483378560122,0.4638221128492244,https://crests.football-data.org/67.png,https://crests.football-data.org/66.png
-13,2026-12-02 20:00:00+00:00,Manchester City FC,Leeds United FC,0.2837821011214795,0.2726833013750208,0.4435345975034997,https://crests.football-data.org/65.png,https://crests.football-data.org/341.png
-13,2026-12-02 20:00:00+00:00,Brentford FC,Arsenal FC,0.2645000057553541,0.27255809583230506,0.4629418984123408,https://crests.football-data.org/402.png,https://crests.football-data.org/57.png
+12,2026-11-28 17:30:00+00:00,Ipswich Town FC,Aston Villa FC,0.2435094779984852,0.2267818705107066,0.5297086514908081,https://crests.football-data.org/349.png,https://crests.football-data.org/58.png
+12,2026-11-29 12:00:00+00:00,Everton FC,Liverpool FC,0.26028232234988524,0.3377143939684892,0.4020032836816256,https://crests.football-data.org/62.png,https://crests.football-data.org/64.png
+12,2026-11-29 14:05:00+00:00,Fulham FC,AFC Bournemouth,0.34421810811384396,0.258676132864613,0.397105759021543,https://crests.football-data.org/63.png,https://crests.football-data.org/bournemouth.png
+12,2026-11-29 14:05:00+00:00,Brighton & Hove Albion FC,Newcastle United FC,0.12932258893424603,0.13542453070039082,0.7352528803653632,https://crests.football-data.org/397.png,https://crests.football-data.org/67.png
+12,2026-11-29 14:05:00+00:00,Sunderland AFC,Tottenham Hotspur FC,0.21456371091769658,0.2530522919660853,0.5323839971162181,https://crests.football-data.org/71.png,https://crests.football-data.org/73.png
+12,2026-11-29 14:05:00+00:00,Crystal Palace FC,Hull City AFC,0.5063700232379716,0.2324118092059895,0.2612181675560388,https://crests.football-data.org/354.png,https://crests.football-data.org/322.png
+12,2026-11-29 16:30:00+00:00,Arsenal FC,Manchester City FC,0.36302002457976473,0.25425602455418894,0.3827239508660464,https://crests.football-data.org/57.png,https://crests.football-data.org/65.png
 13,2026-12-02 20:00:00+00:00,Tottenham Hotspur FC,Fulham FC,0.3943194397266917,0.29367956459640177,0.31200099567690653,https://crests.football-data.org/73.png,https://crests.football-data.org/63.png
-13,2026-12-02 20:00:00+00:00,Chelsea FC,Crystal Palace FC,0.22091911397178793,0.18443630406598382,0.5946445819622282,https://crests.football-data.org/61.png,https://crests.football-data.org/354.png
-13,2026-12-02 20:00:00+00:00,Hull City AFC,Nottingham Forest FC,0.20569162545234354,0.31963884779140306,0.47466952675625346,https://crests.football-data.org/322.png,https://crests.football-data.org/351.png
 13,2026-12-02 20:00:00+00:00,Liverpool FC,Sunderland AFC,0.15816480435652724,0.19820392294270836,0.6436312727007644,https://crests.football-data.org/64.png,https://crests.football-data.org/71.png
+13,2026-12-02 20:00:00+00:00,Hull City AFC,Nottingham Forest FC,0.20569162545234354,0.31963884779140306,0.47466952675625346,https://crests.football-data.org/322.png,https://crests.football-data.org/351.png
+13,2026-12-02 20:00:00+00:00,Chelsea FC,Crystal Palace FC,0.2209191139717879,0.18443630406598377,0.5946445819622284,https://crests.football-data.org/61.png,https://crests.football-data.org/354.png
 13,2026-12-02 20:00:00+00:00,Aston Villa FC,Everton FC,0.5262857608178685,0.25142606939516876,0.22228816978696292,https://crests.football-data.org/58.png,https://crests.football-data.org/62.png
+13,2026-12-02 20:00:00+00:00,Brentford FC,Arsenal FC,0.2645000057553541,0.27255809583230506,0.4629418984123408,https://crests.football-data.org/402.png,https://crests.football-data.org/57.png
+13,2026-12-02 20:00:00+00:00,Coventry City FC,Ipswich Town FC,0.4918270679082379,0.2288641881745541,0.27930874391720817,https://crests.football-data.org/1076.png,https://crests.football-data.org/349.png
+13,2026-12-02 20:00:00+00:00,Manchester City FC,Leeds United FC,0.2837821011214795,0.2726833013750208,0.4435345975034997,https://crests.football-data.org/65.png,https://crests.football-data.org/341.png
+13,2026-12-02 20:00:00+00:00,Newcastle United FC,Manchester United FC,0.3190730533651744,0.21710483378560122,0.4638221128492244,https://crests.football-data.org/67.png,https://crests.football-data.org/66.png
+13,2026-12-02 20:00:00+00:00,AFC Bournemouth,Brighton & Hove Albion FC,0.6441871153775979,0.1535676166940572,0.202245267928345,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/397.png
 14,2026-12-05 15:00:00+00:00,Everton FC,Fulham FC,0.1602333807075261,0.24588739157478878,0.5938792277176851,https://crests.football-data.org/62.png,https://crests.football-data.org/63.png
 14,2026-12-05 15:00:00+00:00,Nottingham Forest FC,Brighton & Hove Albion FC,0.577325817815114,0.20071344493471271,0.22196073725017335,https://crests.football-data.org/351.png,https://crests.football-data.org/397.png
 14,2026-12-05 15:00:00+00:00,Aston Villa FC,Crystal Palace FC,0.35433900531305995,0.2486695926887607,0.39699140199817934,https://crests.football-data.org/58.png,https://crests.football-data.org/354.png
 14,2026-12-05 15:00:00+00:00,AFC Bournemouth,Hull City AFC,0.4243316973562032,0.27176104778171245,0.3039072548620844,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/322.png
 14,2026-12-05 15:00:00+00:00,Brentford FC,Manchester City FC,0.32068596550617745,0.24403498686226702,0.43527904763155556,https://crests.football-data.org/402.png,https://crests.football-data.org/65.png
-14,2026-12-05 15:00:00+00:00,Newcastle United FC,Sunderland AFC,0.21124168444671237,0.19403450458430915,0.5947238109689784,https://crests.football-data.org/67.png,https://crests.football-data.org/71.png
 14,2026-12-05 15:00:00+00:00,Leeds United FC,Ipswich Town FC,0.14094638665966197,0.18041332746769087,0.6786402858726472,https://crests.football-data.org/341.png,https://crests.football-data.org/349.png
+14,2026-12-05 15:00:00+00:00,Newcastle United FC,Sunderland AFC,0.21124168444671237,0.19403450458430915,0.5947238109689784,https://crests.football-data.org/67.png,https://crests.football-data.org/71.png
 14,2026-12-05 15:00:00+00:00,Manchester United FC,Coventry City FC,0.1392751390342468,0.1759346739946902,0.6847901869710631,https://crests.football-data.org/66.png,https://crests.football-data.org/1076.png
 14,2026-12-05 15:00:00+00:00,Tottenham Hotspur FC,Arsenal FC,0.574872543569949,0.2207509364784233,0.20437651995162762,https://crests.football-data.org/73.png,https://crests.football-data.org/57.png
 14,2026-12-05 15:00:00+00:00,Chelsea FC,Liverpool FC,0.4926626080005254,0.21417312879569791,0.2931642632037766,https://crests.football-data.org/61.png,https://crests.football-data.org/64.png
@@ -94,10 +94,10 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 15,2026-12-12 15:00:00+00:00,Liverpool FC,Leeds United FC,0.322390492775423,0.32921045807225796,0.348399049152319,https://crests.football-data.org/64.png,https://crests.football-data.org/341.png
 15,2026-12-12 15:00:00+00:00,Manchester City FC,Chelsea FC,0.12887488122245241,0.13280826569536122,0.7383168530821863,https://crests.football-data.org/65.png,https://crests.football-data.org/61.png
 15,2026-12-12 15:00:00+00:00,Coventry City FC,Aston Villa FC,0.37942320058054624,0.29050711691227865,0.3300696825071751,https://crests.football-data.org/1076.png,https://crests.football-data.org/58.png
-15,2026-12-12 15:00:00+00:00,Hull City AFC,Tottenham Hotspur FC,0.14200755966338355,0.2411154012168978,0.6168770391197186,https://crests.football-data.org/322.png,https://crests.football-data.org/73.png
-15,2026-12-12 15:00:00+00:00,Brighton & Hove Albion FC,Everton FC,0.22841472455759332,0.25356879634242413,0.5180164790999825,https://crests.football-data.org/397.png,https://crests.football-data.org/62.png
-15,2026-12-12 15:00:00+00:00,Ipswich Town FC,Newcastle United FC,0.4441505792868779,0.20698725392847855,0.34886216678464355,https://crests.football-data.org/349.png,https://crests.football-data.org/67.png
 15,2026-12-12 15:00:00+00:00,Crystal Palace FC,Manchester United FC,0.4703317996970681,0.21305925050587668,0.3166089497970553,https://crests.football-data.org/354.png,https://crests.football-data.org/66.png
+15,2026-12-12 15:00:00+00:00,Brighton & Hove Albion FC,Everton FC,0.22841472455759332,0.25356879634242413,0.5180164790999825,https://crests.football-data.org/397.png,https://crests.football-data.org/62.png
+15,2026-12-12 15:00:00+00:00,Hull City AFC,Tottenham Hotspur FC,0.14200755966338355,0.2411154012168978,0.6168770391197186,https://crests.football-data.org/322.png,https://crests.football-data.org/73.png
+15,2026-12-12 15:00:00+00:00,Ipswich Town FC,Newcastle United FC,0.4441505792868779,0.20698725392847855,0.34886216678464355,https://crests.football-data.org/349.png,https://crests.football-data.org/67.png
 15,2026-12-12 15:00:00+00:00,Sunderland AFC,Nottingham Forest FC,0.35010942505713166,0.282706314902009,0.3671842600408594,https://crests.football-data.org/71.png,https://crests.football-data.org/351.png
 16,2026-12-19 15:00:00+00:00,Chelsea FC,Aston Villa FC,0.19410875705877806,0.18972495417241347,0.6161662887688085,https://crests.football-data.org/61.png,https://crests.football-data.org/58.png
 16,2026-12-19 15:00:00+00:00,Liverpool FC,Tottenham Hotspur FC,0.13307327341237837,0.21394460228111017,0.6529821243065115,https://crests.football-data.org/64.png,https://crests.football-data.org/73.png
@@ -107,7 +107,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 16,2026-12-19 15:00:00+00:00,Brentford FC,Newcastle United FC,0.1623563577976667,0.1784550095716882,0.6591886326306451,https://crests.football-data.org/402.png,https://crests.football-data.org/67.png
 16,2026-12-19 15:00:00+00:00,Nottingham Forest FC,Everton FC,0.38704602750130435,0.3448560357691769,0.2680979367295188,https://crests.football-data.org/351.png,https://crests.football-data.org/62.png
 16,2026-12-19 15:00:00+00:00,Brighton & Hove Albion FC,Ipswich Town FC,0.10914922929108149,0.11244341898472682,0.7784073517241917,https://crests.football-data.org/397.png,https://crests.football-data.org/349.png
-16,2026-12-19 15:00:00+00:00,Leeds United FC,Fulham FC,0.14814071288701247,0.22036871220667362,0.6314905749063139,https://crests.football-data.org/341.png,https://crests.football-data.org/63.png
+16,2026-12-19 15:00:00+00:00,Leeds United FC,Fulham FC,0.14814071288701247,0.22036871220667362,0.631490574906314,https://crests.football-data.org/341.png,https://crests.football-data.org/63.png
 16,2026-12-19 15:00:00+00:00,Manchester City FC,Hull City AFC,0.2171273659035922,0.24392925901048998,0.5389433750859178,https://crests.football-data.org/65.png,https://crests.football-data.org/322.png
 17,2026-12-26 12:30:00+00:00,Aston Villa FC,Leeds United FC,0.5638474253254924,0.2254216616227412,0.21073091305176653,https://crests.football-data.org/58.png,https://crests.football-data.org/341.png
 17,2026-12-26 15:00:00+00:00,Everton FC,Sunderland AFC,0.15326617176042776,0.21342363618908647,0.6333101920504858,https://crests.football-data.org/62.png,https://crests.football-data.org/71.png
@@ -115,7 +115,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 17,2026-12-26 15:00:00+00:00,Tottenham Hotspur FC,AFC Bournemouth,0.4380061802844439,0.27255135654692975,0.28944246316862643,https://crests.football-data.org/73.png,https://crests.football-data.org/bournemouth.png
 17,2026-12-26 15:00:00+00:00,Ipswich Town FC,Brentford FC,0.6179360744074646,0.16912938632913907,0.21293453926339628,https://crests.football-data.org/349.png,https://crests.football-data.org/402.png
 17,2026-12-26 17:30:00+00:00,Hull City AFC,Liverpool FC,0.307740817088884,0.32050712666545655,0.3717520562456595,https://crests.football-data.org/322.png,https://crests.football-data.org/64.png
-17,2026-12-26 20:00:00+00:00,Newcastle United FC,Manchester City FC,0.5666149183901079,0.18125837846271586,0.2521267031471763,https://crests.football-data.org/67.png,https://crests.football-data.org/65.png
+17,2026-12-26 20:00:00+00:00,Newcastle United FC,Manchester City FC,0.5666149183901079,0.18125837846271584,0.2521267031471762,https://crests.football-data.org/67.png,https://crests.football-data.org/65.png
 17,2026-12-27 14:00:00+00:00,Coventry City FC,Chelsea FC,0.5758348629820064,0.18688644123057865,0.237278695787415,https://crests.football-data.org/1076.png,https://crests.football-data.org/61.png
 17,2026-12-27 16:30:00+00:00,Manchester United FC,Nottingham Forest FC,0.2645000057553541,0.27255809583230506,0.4629418984123408,https://crests.football-data.org/66.png,https://crests.football-data.org/351.png
 17,2026-12-27 19:00:00+00:00,Crystal Palace FC,Arsenal FC,0.5812244927661372,0.1930183682242295,0.22575713900963335,https://crests.football-data.org/354.png,https://crests.football-data.org/57.png
@@ -186,7 +186,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 24,2027-02-06 15:00:00+00:00,Leeds United FC,AFC Bournemouth,0.15934020151782577,0.22425855132954672,0.6164012471526276,https://crests.football-data.org/341.png,https://crests.football-data.org/bournemouth.png
 24,2027-02-06 15:00:00+00:00,Crystal Palace FC,Coventry City FC,0.19616890496794107,0.22547623555300705,0.5783548594790519,https://crests.football-data.org/354.png,https://crests.football-data.org/1076.png
 24,2027-02-06 15:00:00+00:00,Sunderland AFC,Aston Villa FC,0.25440457214264633,0.24151075349768855,0.5040846743596652,https://crests.football-data.org/71.png,https://crests.football-data.org/58.png
-24,2027-02-06 15:00:00+00:00,Ipswich Town FC,Tottenham Hotspur FC,0.20556099824570342,0.23446116846902718,0.5599778332852694,https://crests.football-data.org/349.png,https://crests.football-data.org/73.png
+24,2027-02-06 15:00:00+00:00,Ipswich Town FC,Tottenham Hotspur FC,0.20556099824570342,0.2344611684690272,0.5599778332852694,https://crests.football-data.org/349.png,https://crests.football-data.org/73.png
 24,2027-02-06 15:00:00+00:00,Brighton & Hove Albion FC,Hull City AFC,0.18865407423830427,0.2171488799764717,0.594197045785224,https://crests.football-data.org/397.png,https://crests.football-data.org/322.png
 24,2027-02-06 15:00:00+00:00,Arsenal FC,Liverpool FC,0.2729650544399451,0.2972801041088031,0.42975484145125187,https://crests.football-data.org/57.png,https://crests.football-data.org/64.png
 25,2027-02-10 20:00:00+00:00,Ipswich Town FC,Arsenal FC,0.562156743120131,0.19819034125894275,0.2396529156209263,https://crests.football-data.org/349.png,https://crests.football-data.org/57.png
@@ -206,13 +206,13 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 26,2027-02-20 15:00:00+00:00,Leeds United FC,Aston Villa FC,0.13032941120406974,0.19629220241636133,0.6733783863795689,https://crests.football-data.org/341.png,https://crests.football-data.org/58.png
 26,2027-02-20 15:00:00+00:00,Chelsea FC,Ipswich Town FC,0.25273066412726114,0.19005652866180073,0.5572128072109381,https://crests.football-data.org/61.png,https://crests.football-data.org/349.png
 26,2027-02-20 15:00:00+00:00,Brentford FC,Coventry City FC,0.10840241726347863,0.1317364606710335,0.7598611220654877,https://crests.football-data.org/402.png,https://crests.football-data.org/1076.png
-26,2027-02-20 15:00:00+00:00,AFC Bournemouth,Crystal Palace FC,0.2501007252486196,0.2232135782799466,0.5266856964714339,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/354.png
+26,2027-02-20 15:00:00+00:00,AFC Bournemouth,Crystal Palace FC,0.25010072524861954,0.22321357827994662,0.5266856964714338,https://crests.football-data.org/bournemouth.png,https://crests.football-data.org/354.png
 26,2027-02-20 15:00:00+00:00,Manchester City FC,Newcastle United FC,0.14983146944722744,0.15653140360762285,0.6936371269451497,https://crests.football-data.org/65.png,https://crests.football-data.org/67.png
 26,2027-02-20 15:00:00+00:00,Liverpool FC,Hull City AFC,0.26438518869408895,0.31612751790768406,0.419487293398227,https://crests.football-data.org/64.png,https://crests.football-data.org/322.png
 27,2027-02-27 15:00:00+00:00,Newcastle United FC,Brentford FC,0.5308712298168271,0.20356188112805268,0.26556688905512016,https://crests.football-data.org/67.png,https://crests.football-data.org/402.png
 27,2027-02-27 15:00:00+00:00,Tottenham Hotspur FC,Liverpool FC,0.5428854447508787,0.24373442871326387,0.21338012653585742,https://crests.football-data.org/73.png,https://crests.football-data.org/64.png
 27,2027-02-27 15:00:00+00:00,Aston Villa FC,Chelsea FC,0.47704121990184983,0.21097879784634443,0.3119799822518058,https://crests.football-data.org/58.png,https://crests.football-data.org/61.png
-27,2027-02-27 15:00:00+00:00,Fulham FC,Leeds United FC,0.5164326119770921,0.24850559351301957,0.23506179450988837,https://crests.football-data.org/63.png,https://crests.football-data.org/341.png
+27,2027-02-27 15:00:00+00:00,Fulham FC,Leeds United FC,0.5164326119770921,0.24850559351301954,0.2350617945098884,https://crests.football-data.org/63.png,https://crests.football-data.org/341.png
 27,2027-02-27 15:00:00+00:00,Hull City AFC,Manchester City FC,0.41181344447798574,0.2609634507285314,0.32722310479348293,https://crests.football-data.org/322.png,https://crests.football-data.org/65.png
 27,2027-02-27 15:00:00+00:00,Coventry City FC,AFC Bournemouth,0.4948392366302926,0.24353952542172333,0.2616212379479841,https://crests.football-data.org/1076.png,https://crests.football-data.org/bournemouth.png
 27,2027-02-27 15:00:00+00:00,Ipswich Town FC,Brighton & Hove Albion FC,0.6872538065256574,0.1279351780560298,0.18481101541831282,https://crests.football-data.org/349.png,https://crests.football-data.org/397.png
@@ -259,7 +259,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 31,2027-04-10 14:00:00+00:00,Manchester United FC,Hull City AFC,0.38193234582100244,0.26666639076266313,0.3514012634163345,https://crests.football-data.org/66.png,https://crests.football-data.org/322.png
 31,2027-04-10 14:00:00+00:00,Leeds United FC,Nottingham Forest FC,0.16876432108305692,0.29788173836498455,0.5333539405519585,https://crests.football-data.org/341.png,https://crests.football-data.org/351.png
 31,2027-04-10 14:00:00+00:00,Liverpool FC,Newcastle United FC,0.2129898213717114,0.22344167450640393,0.5635685041218848,https://crests.football-data.org/64.png,https://crests.football-data.org/67.png
-32,2027-04-17 14:00:00+00:00,Ipswich Town FC,Manchester United FC,0.4362572122548968,0.2146511021451477,0.3490916855999554,https://crests.football-data.org/349.png,https://crests.football-data.org/66.png
+32,2027-04-17 14:00:00+00:00,Ipswich Town FC,Manchester United FC,0.4362572122548969,0.21465110214514777,0.34909168559995535,https://crests.football-data.org/349.png,https://crests.football-data.org/66.png
 32,2027-04-17 14:00:00+00:00,Everton FC,AFC Bournemouth,0.17356395018202186,0.24852492503680199,0.5779111247811761,https://crests.football-data.org/62.png,https://crests.football-data.org/bournemouth.png
 32,2027-04-17 14:00:00+00:00,Newcastle United FC,Tottenham Hotspur FC,0.1561841426628174,0.19455653175291907,0.6492593255842636,https://crests.football-data.org/67.png,https://crests.football-data.org/73.png
 32,2027-04-17 14:00:00+00:00,Manchester City FC,Crystal Palace FC,0.11382043924105524,0.12225260529504978,0.763926955463895,https://crests.football-data.org/65.png,https://crests.football-data.org/354.png
@@ -320,7 +320,7 @@ Matchday,Date,HomeTeam,AwayTeam,AwayProbability,DrawProbability,HomeProbability,
 37,2027-05-23 14:00:00+00:00,Brentford FC,Hull City AFC,0.2227231229801107,0.2760654260124594,0.5012114510074298,https://crests.football-data.org/402.png,https://crests.football-data.org/322.png
 37,2027-05-23 14:00:00+00:00,Brighton & Hove Albion FC,Liverpool FC,0.20685425960810636,0.2209175370008168,0.5722282033910769,https://crests.football-data.org/397.png,https://crests.football-data.org/64.png
 38,2027-05-30 15:00:00+00:00,Chelsea FC,Brentford FC,0.5927926244716761,0.1732721240220645,0.23393525150625938,https://crests.football-data.org/61.png,https://crests.football-data.org/402.png
-38,2027-05-30 15:00:00+00:00,Ipswich Town FC,Everton FC,0.5229940508290424,0.22976047634620958,0.24724547282474796,https://crests.football-data.org/349.png,https://crests.football-data.org/62.png
+38,2027-05-30 15:00:00+00:00,Ipswich Town FC,Everton FC,0.5229940508290425,0.22976047634620958,0.24724547282474799,https://crests.football-data.org/349.png,https://crests.football-data.org/62.png
 38,2027-05-30 15:00:00+00:00,Arsenal FC,Brighton & Hove Albion FC,0.416135854399912,0.23975032889925116,0.3441138167008369,https://crests.football-data.org/57.png,https://crests.football-data.org/397.png
 38,2027-05-30 15:00:00+00:00,Liverpool FC,AFC Bournemouth,0.18262107346776174,0.23042275493089803,0.5869561716013403,https://crests.football-data.org/64.png,https://crests.football-data.org/bournemouth.png
 38,2027-05-30 15:00:00+00:00,Coventry City FC,Nottingham Forest FC,0.4431611361180718,0.3004873102315227,0.2563515536504056,https://crests.football-data.org/1076.png,https://crests.football-data.org/351.png
