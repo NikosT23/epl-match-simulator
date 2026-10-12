@@ -1,21 +1,21 @@
 Team,BaselinePts,xPts,StdPts,Pts_10th,Pts_50th,Pts_90th,TitleProb_%,Top4Prob_%,RelegationProb_%,AvgRank,Crest
-Manchester City FC,15,77.0619,7.196462213476841,68.0,77.0,86.0,36.980000000000004,90.13,0.0,2.3651,https://crests.football-data.org/65.png
-Brighton & Hove Albion FC,10,76.9444,7.095231401441393,68.0,77.0,86.0,39.93,88.64999999999999,0.0,2.3604,https://crests.football-data.org/397.png
-Brentford FC,9,69.5545,7.226951622226345,60.0,70.0,79.0,8.83,58.4,0.0,4.273,https://crests.football-data.org/402.png
-Arsenal FC,12,68.3758,7.182393358762802,59.0,68.0,77.0,6.72,50.24999999999999,0.0,4.6333,https://crests.football-data.org/57.png
-Leeds United FC,9,67.3195,7.097395279255623,58.0,67.0,76.0,4.53,47.96,0.0,4.8853,https://crests.football-data.org/341.png
-Liverpool FC,9,62.7746,7.174747022717944,53.0,63.0,72.0,1.22,24.779999999999998,0.01,6.3887,https://crests.football-data.org/64.png
-Everton FC,9,62.7718,7.10083972217371,54.0,63.0,72.0,1.21,22.88,0.01,6.4042,https://crests.football-data.org/62.png
-Hull City AFC,8,58.3791,7.1912991308942225,49.0,58.0,68.0,0.47000000000000003,9.950000000000001,0.06999999999999999,7.9653,https://crests.football-data.org/322.png
-Newcastle United FC,8,54.0008,7.212350474013309,45.0,54.0,63.0,0.06999999999999999,3.63,0.5,9.6627,https://crests.football-data.org/67.png
-Manchester United FC,5,51.5655,7.3164000539883,42.0,52.0,61.0,0.01,1.8800000000000001,1.38,10.5604,https://crests.football-data.org/66.png
-Chelsea FC,7,51.0777,7.164053511106683,42.0,51.0,60.0,0.02,1.15,1.6099999999999999,10.7805,https://crests.football-data.org/61.png
-Nottingham Forest FC,5,45.4234,7.161126478425025,36.0,45.0,55.0,0.0,0.16,7.12,13.0138,https://crests.football-data.org/351.png
-AFC Bournemouth,3,44.6015,7.0868256469310715,36.0,45.0,54.0,0.0,0.06,8.41,13.3519,https://crests.football-data.org/bournemouth.png
-Ipswich Town FC,6,43.1009,7.124501329215962,34.0,43.0,52.0,0.01,0.06999999999999999,12.920000000000002,14.0025,https://crests.football-data.org/349.png
-Sunderland AFC,4,40.9347,7.06572260352754,32.0,41.0,50.0,0.0,0.02,19.7,14.7663,https://crests.football-data.org/71.png
-Crystal Palace FC,4,38.934,7.042105082998975,30.0,39.0,48.0,0.0,0.01,28.689999999999998,15.6371,https://crests.football-data.org/354.png
-Fulham FC,2,38.5411,7.014949093899399,30.0,38.0,48.0,0.0,0.02,30.220000000000002,15.7508,https://crests.football-data.org/63.png
-Aston Villa FC,4,36.3391,6.9205426947602895,28.0,36.0,45.0,0.0,0.0,41.339999999999996,16.562,https://crests.football-data.org/58.png
-Tottenham Hotspur FC,2,31.2577,6.593488508369451,23.0,31.0,40.0,0.0,0.0,70.42,18.0987,https://crests.football-data.org/73.png
-Coventry City FC,3,29.9744,6.564719692416425,22.0,30.0,39.0,0.0,0.0,77.60000000000001,18.538,https://crests.football-data.org/1076.png
+Manchester City FC,18,82.5849,6.968887428420694,74.0,83.0,91.0,51.6,98.26,0.0,1.7144,https://crests.football-data.org/65.png
+Brighton & Hove Albion FC,13,80.377,6.959229195823342,71.0,81.0,89.0,39.54,96.67999999999999,0.0,1.9709,https://crests.football-data.org/397.png
+Arsenal FC,15,71.6269,7.066009934184922,62.0,72.0,81.0,5.93,72.91,0.0,3.734,https://crests.football-data.org/57.png
+Brentford FC,10,66.7669,7.148270027775951,58.0,67.0,76.0,1.78,47.48,0.0,5.0169,https://crests.football-data.org/402.png
+Leeds United FC,9,62.479,7.160807147242552,53.0,63.0,72.0,0.49,26.229999999999997,0.03,6.3346,https://crests.football-data.org/341.png
+Everton FC,10,61.2746,7.152859207338,52.0,61.0,71.0,0.27999999999999997,20.560000000000002,0.0,6.7527,https://crests.football-data.org/62.png
+Chelsea FC,10,60.3292,7.189216046273752,51.0,60.0,70.0,0.27,15.86,0.02,7.1032,https://crests.football-data.org/61.png
+Hull City AFC,9,58.1167,7.163147430424701,49.0,58.0,67.0,0.06999999999999999,10.92,0.06999999999999999,7.9221,https://crests.football-data.org/322.png
+Newcastle United FC,8,54.0922,7.333832501496063,45.0,54.0,63.0,0.02,4.54,0.5599999999999999,9.5566,https://crests.football-data.org/67.png
+Liverpool FC,9,53.2129,7.133538644319521,44.0,53.0,62.0,0.02,3.45,0.5599999999999999,9.8389,https://crests.football-data.org/64.png
+Manchester United FC,6,51.1843,7.2321320169089836,42.0,51.0,61.0,0.0,1.9800000000000002,1.26,10.6449,https://crests.football-data.org/66.png
+Ipswich Town FC,9,47.9294,7.099606724319313,39.0,48.0,57.0,0.0,0.7100000000000001,3.81,12.0159,https://crests.football-data.org/349.png
+Crystal Palace FC,7,46.9698,7.125214941319315,38.0,47.0,56.0,0.0,0.37,4.68,12.3782,https://crests.football-data.org/354.png
+Nottingham Forest FC,5,40.4097,6.896016669788437,32.0,40.0,49.0,0.0,0.02,20.03,14.9998,https://crests.football-data.org/351.png
+Aston Villa FC,5,39.4523,6.959146837795564,31.0,39.0,49.0,0.0,0.0,24.560000000000002,15.4023,https://crests.football-data.org/58.png
+AFC Bournemouth,3,37.7243,6.92877258322136,29.0,38.0,47.0,0.0,0.01,32.76,16.0544,https://crests.football-data.org/bournemouth.png
+Sunderland AFC,4,37.5099,6.885673677280967,29.0,37.0,46.0,0.0,0.0,34.94,16.0559,https://crests.football-data.org/71.png
+Fulham FC,2,37.2667,6.851756790050271,29.0,37.0,46.0,0.0,0.02,35.52,16.1999,https://crests.football-data.org/63.png
+Tottenham Hotspur FC,3,32.4549,6.564980273390012,24.0,32.0,41.0,0.0,0.0,63.92,17.7593,https://crests.football-data.org/73.png
+Coventry City FC,3,29.8917,6.575528200076402,22.0,30.0,39.0,0.0,0.0,77.28,18.5451,https://crests.football-data.org/1076.png
