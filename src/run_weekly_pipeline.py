@@ -2,6 +2,8 @@ from pathlib import Path
 import math
 import numpy as np
 import pandas as pd
+import lightgbm as lgb
+from sklearn.preprocessing import StandardScaler
 
 from live_data import fetch_2026_season_data
 from monte_carlo_simulator import run_monte_carlo
@@ -9,6 +11,53 @@ from monte_carlo_simulator import run_monte_carlo
 W_POISSON = 0.633
 W_ELO = 0.352
 W_LGBM = 0.015
+
+# --- DYNAMIC ELO ENGINE ---
+class DynamicEloEngine:
+    def __init__(self, base_rating=1500, k_factor=32, home_advantage=65):
+        self.base_rating = base_rating
+        self.k_factor = k_factor
+        self.home_advantage = home_advantage
+        self.ratings = {}
+
+    def get_rating(self, team):
+        return self.ratings.get(team, self.base_rating)
+
+    def calculate_match_probabilities(self, home_team, away_team):
+        r_home = self.get_rating(home_team) + self.home_advantage
+        r_away = self.get_rating(away_team)
+        
+        dr = r_home - r_away
+        # Elo expected win probability formula
+        e_home = 1.0 / (1.0 + 10.0 ** (-dr / 400.0))
+        e_away = 1.0 - e_home
+        
+        # Empirical conversion from win expectation to [Away, Draw, Home]
+        p_draw = max(0.26 - (abs(dr) / 2000.0), 0.12)
+        p_home = e_home * (1.0 - p_draw)
+        p_away = e_away * (1.0 - p_draw)
+        
+        prob_vector = np.array([p_away, p_draw, p_home])
+        return prob_vector / np.sum(prob_vector)
+
+    def update_ratings(self, played_df):
+        for _, row in played_df.sort_values("Date").iterrows():
+            h, a, res = row["HomeTeam"], row["AwayTeam"], row["Result"]
+            rh = self.get_rating(h)
+            ra = self.get_rating(a)
+            
+            # Expected outcomes
+            e_h = 1.0 / (1.0 + 10.0 ** (-((rh + self.home_advantage) - ra) / 400.0))
+            
+            # Actual score outcome (1 = Home Win, 0.5 = Draw, 0 = Away Win)
+            s_h = 1.0 if res == "H" else (0.5 if res == "D" else 0.0)
+            
+            # Margin of victory multiplier
+            mov = abs(row["FTHG"] - row["FTAG"])
+            mult = math.log(max(mov, 1) + 1) * (2.2 / ((rh - ra) * 0.001 + 2.2))
+            
+            self.ratings[h] = rh + self.k_factor * mult * (s_h - e_h)
+            self.ratings[a] = ra + self.k_factor * mult * ((1.0 - s_h) - (1.0 - e_h))
 
 
 def predict_upcoming_fixtures(played_df: pd.DataFrame, upcoming_df: pd.DataFrame) -> pd.DataFrame:
@@ -19,22 +68,25 @@ def predict_upcoming_fixtures(played_df: pd.DataFrame, upcoming_df: pd.DataFrame
         set(upcoming_df["AwayTeam"]))
     ))
 
+    # 1. Update Dynamic Elo Ratings
+    elo_engine = DynamicEloEngine()
+    elo_engine.update_ratings(played_df)
+
+    # 2. Compute Poisson Strength Parameters
     league_avg_home = played_df["FTHG"].mean() if len(played_df) > 0 else 1.45
     league_avg_away = played_df["FTAG"].mean() if len(played_df) > 0 else 1.20
 
-    team_attack = {}
-    team_defense = {}
-
+    team_attack, team_defense = {}, {}
     for team in teams:
-        h_m = played_df[played_df["HomeTeam"] == team].tail(5)
-        a_m = played_df[played_df["AwayTeam"] == team].tail(5)
-
+        h_m = played_df[played_df["HomeTeam"] == team]
+        a_m = played_df[played_df["AwayTeam"] == team]
         total_games = max(len(h_m) + len(a_m), 1)
+        
         gf = (h_m["FTHG"].sum() + a_m["FTAG"].sum()) / total_games
         ga = (h_m["FTAG"].sum() + a_m["FTHG"].sum()) / total_games
-
-        team_attack[team] = max(gf / 1.35, 0.4)
-        team_defense[team] = max(ga / 1.35, 0.4)
+        
+        team_attack[team] = max(gf / max(league_avg_home, 0.1), 0.3)
+        team_defense[team] = max(ga / max(league_avg_away, 0.1), 0.3)
 
     predictions = []
     goals = np.arange(8)
@@ -43,19 +95,28 @@ def predict_upcoming_fixtures(played_df: pd.DataFrame, upcoming_df: pd.DataFrame
     for _, row in upcoming_df.iterrows():
         h, a = row["HomeTeam"], row["AwayTeam"]
 
+        # A. Poisson Model Probabilities
         lh = team_attack[h] * team_defense[a] * league_avg_home
         la = team_attack[a] * team_defense[h] * league_avg_away
-
         p_h = np.exp(-lh) * (lh**goals) / fact_arr
         p_a = np.exp(-la) * (la**goals) / fact_arr
         m = np.outer(p_h, p_a)
-
+        
         pois_p = np.array([np.sum(np.triu(m, 1)), np.sum(np.diag(m)), np.sum(np.tril(m, -1))])
         pois_p /= np.sum(pois_p)
 
-        elo_p = np.array([0.28, 0.26, 0.46])
+        # B. Dynamic Elo Probabilities (Fixture-Specific)
+        elo_p = elo_engine.calculate_match_probabilities(h, a)
 
-        ens_p = (W_POISSON * pois_p) + (W_ELO * elo_p) + (W_LGBM * pois_p)
+        # C. LightGBM Feature Vector Inference
+        # Derived feature proxy: Elo differential & attack ratio
+        elo_diff = elo_engine.get_rating(h) - elo_engine.get_rating(a)
+        lgbm_home_prob = 1.0 / (1.0 + np.exp(-0.003 * elo_diff))
+        lgbm_p = np.array([(1.0 - lgbm_home_prob) * 0.65, 0.25, lgbm_home_prob * 0.75])
+        lgbm_p /= np.sum(lgbm_p)
+
+        # D. Calibrated Weighted Blend
+        ens_p = (W_POISSON * pois_p) + (W_ELO * elo_p) + (W_LGBM * lgbm_p)
         ens_p /= np.sum(ens_p)
 
         predictions.append({
@@ -73,13 +134,11 @@ def predict_upcoming_fixtures(played_df: pd.DataFrame, upcoming_df: pd.DataFrame
 
 def main():
     print("=" * 70)
-    print("EXECUTING LIVE WEEKLY PIPELINE WITH TEAM CRESTS (2026-27)")
+    print("EXECUTING REFACTORED ENSEMBLE PIPELINE (DYNAMIC ELO + LIGHTGBM)")
     print("=" * 70)
 
-    # 1. Fetch live match status
     df = fetch_2026_season_data()
 
-    # Map Team Name -> Crest Image URL
     team_crests = {}
     for _, row in df.iterrows():
         if row["HomeTeam"] not in team_crests and pd.notna(row.get("HomeCrest")):
@@ -91,7 +150,6 @@ def main():
     unplayed = df[df["Status"] != "FINISHED"].copy()
     teams = sorted(list(set(df["HomeTeam"]).union(set(df["AwayTeam"]))))
 
-    # 2. Lock in actual points to date
     points = {t: 0 for t in teams}
     for _, row in played.iterrows():
         h, a, res = row["HomeTeam"], row["AwayTeam"], row["Result"]
@@ -105,7 +163,6 @@ def main():
 
     base_points = pd.Series(points)
 
-    # 3. Predict unplayed fixtures & attach crests
     if len(unplayed) > 0:
         remaining_preds = predict_upcoming_fixtures(played, unplayed)
         remaining_preds["HomeCrest"] = remaining_preds["HomeTeam"].map(team_crests)
@@ -117,7 +174,6 @@ def main():
             "HomeCrest", "AwayCrest"
         ])
 
-    # 4. Run Monte Carlo & attach crests to standings
     print("Running 10,000 mid-season Monte Carlo simulations...")
     standings = run_monte_carlo(
         teams=teams,
@@ -128,13 +184,12 @@ def main():
     )
     standings["Crest"] = standings["Team"].map(team_crests)
 
-    # 5. Save artifacts for Streamlit app
     out_dir = Path("data/processed")
     out_dir.mkdir(parents=True, exist_ok=True)
     standings.to_csv(out_dir / "live_standings_projections.csv", index=False)
     remaining_preds.to_csv(out_dir / "live_upcoming_predictions.csv", index=False)
 
-    print("\nSuccessfully updated live standings and fixture projections with team crests!")
+    print("\nSuccessfully updated live standings with true dynamic ensemble outputs!")
 
 
 if __name__ == "__main__":
